@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  padding: 10px;
+}
+
+.dash-login {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  width: 90%;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 25px;
+  background-color: #c8102e;
+}
+
+.login-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.login-header {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.login-credentials {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.login-button {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: #c8102e;
+}
